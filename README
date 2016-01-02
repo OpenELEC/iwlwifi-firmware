@@ -1,0 +1,3 @@
+Intel(R) Wireless WiFi driver for Linux
+
+iwlwifi-firmware is a set of drivers written for the Linux kernel for specific Intel hardware. The firmware is delivered as a binary, not as source code. Because it is pre-compiled you need to ensure you're using the correct firmware for your device. You can use a command like lspci on Linux to determine what PCI buses you have on your machine and what is connected to them. This information should give you the name of the WiFi device you have. Find the iwlwifi-firmware that corresponds to your hardware.
