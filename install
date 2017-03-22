@@ -20,6 +20,8 @@
 #  http://www.gnu.org/copyleft/gpl.html
 ################################################################################
 
+set -e
+
 FW_DIR="$DESTDIR/lib/firmware"
 
 mkdir -p $FW_DIR
